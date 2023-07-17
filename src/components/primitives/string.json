@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_primitives_strings",
+  "info": {
+    "displayName": "string"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}
