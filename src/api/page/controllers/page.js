@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * professor controller
+ * page controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::professor.professor');
+module.exports = createCoreController('api::page.page');

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prof_groups",
+  "info": {
+    "singularName": "prof-group",
+    "pluralName": "prof-groups",
+    "displayName": "ProfGroup",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "professors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::zaposleni.zaposleni"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_latest_news",
+  "info": {
+    "displayName": "Latest News",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "badgedTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title-with-badge",
+      "required": true
+    },
+    "limit": {
+      "type": "integer",
+      "default": 3,
+      "max": 6,
+      "min": 1
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "direktors",
+  "info": {
+    "singularName": "direktor",
+    "pluralName": "direktors",
+    "displayName": "Direktor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blocks_image_with_contents",
+  "info": {
+    "displayName": "Image with content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "badgedTitle": {
+      "displayName": "Title with badge",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title-with-badge",
+      "required": true
+    }
+  }
+}

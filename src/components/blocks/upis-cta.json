@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_upis_ctas",
+  "info": {
+    "displayName": "UpisCTA"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Упис је у току!"
+    },
+    "content": {
+      "type": "richtext",
+      "default": "Придружите нам се и обезбедите свом детету квалитетно образовање у школској години 2023/2024. Наша школа пружа сигурно окружење и индивидуални приступ сваком ученику. За више информација о упису, распореду и документацији, посетите нашу страницу за упис.",
+      "required": true
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

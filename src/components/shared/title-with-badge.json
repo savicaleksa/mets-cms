@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_title_with_badges",
+  "info": {
+    "displayName": "Title with badge",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "badge": {
+      "type": "string"
+    }
+  }
+}

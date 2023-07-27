@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "pomocno_osobljes",
+  "info": {
+    "singularName": "pomocno-osoblje",
+    "pluralName": "pomocno-osobljes",
+    "displayName": "Pomocno osoblje"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "names": {
+      "type": "dynamiczone",
+      "components": [
+        "primitives.string"
+      ],
+      "required": true
+    }
+  }
+}

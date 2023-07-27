@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "pravno_finansijska_sluzbas",
+  "info": {
+    "singularName": "pravno-finansijska-sluzba",
+    "pluralName": "pravno-finansijska-sluzbas",
+    "displayName": "Pravno-finansijska sluzba"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pravnici": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::zaposleni.zaposleni"
+    }
+  }
+}

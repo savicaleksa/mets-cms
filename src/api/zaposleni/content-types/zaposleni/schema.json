@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "professors",
+  "collectionName": "zaposlenis",
   "info": {
-    "singularName": "professor",
-    "pluralName": "professors",
-    "displayName": "Professor"
+    "singularName": "zaposleni",
+    "pluralName": "zaposlenis",
+    "displayName": "Zaposleni"
   },
   "options": {
     "draftAndPublish": true
@@ -16,13 +16,21 @@
       "required": true
     },
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "required": false
     },
-    "subjects": {
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "position": {
       "type": "dynamiczone",
       "components": [
         "primitives.string"
