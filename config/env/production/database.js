@@ -14,6 +14,16 @@ module.exports = ({ env }) => {
         password,
         ssl: { rejectUnauthorized: false },
       },
+      pool: {
+        min: 0,
+        max: 2,
+        acquireTimeoutMillis: 60000,
+        createTimeoutMillis: 60000,
+        destroyTimeoutMillis: 20000,
+        idleTimeoutMillis: 60000,
+        reapIntervalMillis: 1000,
+        createRetryIntervalMillis: 1000,
+      },
       debug: false,
     },
   };
