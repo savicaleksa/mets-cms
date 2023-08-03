@@ -4,7 +4,8 @@
   "info": {
     "singularName": "zaposleni",
     "pluralName": "zaposlenis",
-    "displayName": "Zaposleni"
+    "displayName": "Zaposleni",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,18 +24,22 @@
       "required": false
     },
     "img": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "position": {
       "type": "dynamiczone",
       "components": [
         "primitives.string"
       ],
+      "required": true
+    },
+    "year": {
+      "type": "integer",
       "required": true
     }
   }
