@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_page_titles",
+  "info": {
+    "displayName": "PageTitle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

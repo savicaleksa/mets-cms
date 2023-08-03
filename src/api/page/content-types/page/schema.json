@@ -32,7 +32,9 @@
         "blocks.hero",
         "blocks.image-with-content",
         "blocks.latest-news",
-        "blocks.upis-cta"
+        "blocks.upis-cta",
+        "primitives.rich-text",
+        "shared.page-title"
       ],
       "required": true,
       "min": 1
