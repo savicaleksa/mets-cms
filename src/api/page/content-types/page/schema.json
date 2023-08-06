@@ -19,7 +19,7 @@
       "type": "string",
       "required": true
     },
-    "Seo": {
+    "seo": {
       "displayName": "SeoComponent",
       "type": "component",
       "repeatable": false,
