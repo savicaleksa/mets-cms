@@ -34,7 +34,8 @@
         "blocks.latest-news",
         "blocks.upis-cta",
         "primitives.rich-text",
-        "shared.page-title"
+        "shared.page-title",
+        "blocks.document-group"
       ],
       "required": true,
       "min": 1

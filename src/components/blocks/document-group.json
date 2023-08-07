@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_document_groups",
+  "info": {
+    "displayName": "DocumentGroup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "badgedTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title-with-badge",
+      "required": true
+    },
+    "docs": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  }
+}
