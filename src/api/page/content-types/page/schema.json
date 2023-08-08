@@ -33,9 +33,9 @@
         "blocks.image-with-content",
         "blocks.latest-news",
         "blocks.upis-cta",
-        "primitives.rich-text",
         "shared.page-title",
-        "blocks.document-group"
+        "blocks.document-group",
+        "blocks.rich-text-section"
       ],
       "required": true,
       "min": 1
