@@ -35,7 +35,8 @@
         "blocks.upis-cta",
         "shared.page-title",
         "blocks.document-group",
-        "blocks.rich-text-section"
+        "blocks.rich-text-section",
+        "blocks.image-grid"
       ],
       "required": true,
       "min": 1
