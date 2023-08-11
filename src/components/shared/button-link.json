@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_button_links",
+  "info": {
+    "displayName": "ButtonLink",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "secondary",
+        "ghost",
+        "link"
+      ],
+      "default": "default",
+      "required": true
+    }
+  }
+}

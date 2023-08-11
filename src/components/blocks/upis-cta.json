@@ -1,7 +1,8 @@
 {
   "collectionName": "components_blocks_upis_ctas",
   "info": {
-    "displayName": "UpisCTA"
+    "displayName": "UpisCTA",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,12 +17,17 @@
       "required": true
     },
     "img": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button-link"
     }
   }
 }
