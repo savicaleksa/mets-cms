@@ -47,6 +47,10 @@
       "type": "uid",
       "targetField": "title",
       "required": true
+    },
+    "isVanredni": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
