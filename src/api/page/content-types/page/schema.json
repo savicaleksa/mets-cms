@@ -36,7 +36,8 @@
         "shared.page-title",
         "blocks.document-group",
         "blocks.rich-text-section",
-        "blocks.image-grid"
+        "blocks.image-grid",
+        "blocks.stats"
       ],
       "required": true,
       "min": 1

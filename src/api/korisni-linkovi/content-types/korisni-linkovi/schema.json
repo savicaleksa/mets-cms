@@ -4,15 +4,20 @@
   "info": {
     "singularName": "korisni-linkovi",
     "pluralName": "korisni-linkovis",
-    "displayName": "Korisni linkovi"
+    "displayName": "Korisni linkovi",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "content": {
-      "type": "richtext"
+    "links": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.useful-link"
+      ],
+      "required": false
     }
   }
 }

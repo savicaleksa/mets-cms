@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_blocks_stats",
+  "info": {
+    "displayName": "Stats",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {}
+}

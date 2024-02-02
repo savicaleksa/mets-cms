@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "stats",
+  "info": {
+    "singularName": "stat",
+    "pluralName": "stats",
+    "displayName": "Stat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "godina": {
+      "type": "string",
+      "required": true
+    },
+    "ucenika": {
+      "type": "string",
+      "required": true
+    },
+    "zaposlenih": {
+      "type": "string",
+      "required": true
+    },
+    "odeljenja": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
