@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "stats",
+  "collectionName": "stat_collections",
   "info": {
-    "singularName": "stat",
-    "pluralName": "stats",
-    "displayName": "Stat",
-    "description": ""
+    "singularName": "stat-collection",
+    "pluralName": "stat-collections",
+    "displayName": "StatCollection"
   },
   "options": {
     "draftAndPublish": true
@@ -16,7 +15,7 @@
       "type": "string",
       "required": true
     },
-    "ucenika": {
+    "odeljenja": {
       "type": "string",
       "required": true
     },
@@ -24,7 +23,7 @@
       "type": "string",
       "required": true
     },
-    "odeljenja": {
+    "ucenika": {
       "type": "string",
       "required": true
     }
